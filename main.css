@@ -1,0 +1,242 @@
+/*debut de la section haut de page*/
+/*ici je fais le mobile first*/
+nav {
+
+    display: flex;
+    padding: 3px 59px 3px 10px;
+    align-items: center;
+    gap: -36px;
+    align-self: stretch;
+    background: black;
+    width: 100%;
+    height: 100px;
+}
+/*je met le hover en mauve*/
+a {
+    color: #FFF;
+}
+a :hover {
+    color: purple;
+}
+.nav {
+    display: flex;
+    width: 154px;
+    height: 150px;
+    padding: 0px 62px 1px 0px;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.nav :hover {
+    color: purple;
+}
+/*ici je massure que tout les element pas sur la page mobile ne soit pas present*/
+.propos {
+    display:none;
+}
+
+.services {
+    display: none;
+}
+.oeuvres{
+    display: none;
+}
+
+.artistes {
+    display: none;
+}
+
+.fr {
+    display: none;
+}
+/*ici je moccupe de mon bouton menu*/
+.menu {
+    
+    color: #FFF;
+    font-family: "Dela Gothic One";
+    font-size: 230%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 49px;
+    align-items: center;
+    gap: -9px;
+    padding-right: 30%;
+    margin-left: -7%;
+}
+
+img {
+    
+    width: 450px;
+    height: 270px;
+    flex-shrink: 0;
+}
+
+.recherche {
+    display: none;
+}
+/*ici je met les fonts pour pour mon haut de page*/
+@font-face {
+    font-family:"Dela Gothic One";
+    src: url('/stanley_nathan_web2final_582-211/assets/polices/DelaGothicOne-Regular.ttf') format('truetype');
+}
+
+
+
+
+/*ceci son les modifications pour le haut de page desktop donc apartir de plus de 600px de largeur*/
+@media screen and (min-width: 767px){ 
+    /*ceci es loto layout de mon haut de page au complet je vais donc faire quil prend la page au complet et gerer la distance entre mes elements*/
+    nav {
+        display: flex;
+        width: 100%;
+        height: 149px;
+        padding: 3px 200px;
+        justify-content: center;
+        align-items: center;
+        gap: 54px;
+        flex-shrink: 0;
+        background-color: black;
+    }
+    /*ceci est ma barre de nav donc ou il ya les textes, je vais donc faire son auto layout*/
+    .nav {
+        display: flex;
+        width: 700px;
+        height: 47px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 19px;
+        flex-shrink: 0;
+    }
+    /*ici es la hover pour le texte de ma nav*/
+    nav :hover {
+        color: purple;
+    }
+    /*ici je massure que la parti menu je soit pas sur la version desktop*/
+    .menu {
+        display: none;
+    }
+    .propos {
+        display: flex;
+        width: 122px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .services {
+        display: flex;
+        width: 126px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .oeuvres {
+        display: flex;
+        width: 116px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .artistes {
+        display: flex;
+        width: 128px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .contact {
+        display: flex;
+        width: 117px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .fr {
+        display: flex;
+        width: 72px;
+        height: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Dela Gothic One";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .logo {
+        display: flex;
+        width: 7%;
+        height: 85px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        aspect-ratio: 405/85;   
+        padding-right: 10%;
+    }
+
+    img {
+        display: flex;
+        width: 800px;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        aspect-ratio: 405.23/85.63;
+        padding-left: 5%;
+    }
+    .recherche {
+        display: flex;
+    }
+    .recherche :hover {
+        color: purple;
+    }
+}
+/*fin de la section haut de page*/
+
