@@ -2,9 +2,12 @@
 @font-face {
     font-family:"Dela Gothic One";
     src: url(../assets/polices/DelaGothicOne-Regular.ttf) format('truetype');
-    font-family:"Roboto Mono";
-    src: url(../assets/polices/RobotoMono-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+    font-family:"Roboto Mono";
+    src:url(../assets/polices/RobotoMono-VariableFont_wght.ttf) format('truetype');
+}
+   
 /*#debut de la section haut de page#*/
 /*ici je fais le mobile first*/
 nav {
