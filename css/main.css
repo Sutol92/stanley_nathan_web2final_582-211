@@ -17,13 +17,13 @@
 
 /*ici je gere mon haut de page au complet donc dimension couleur*/
 nav {
-
+    padding: 2vw;
     display: flex;
     align-items: center;
     align-self: stretch;
     background: black;
     width: 100vw;
-    height: 8vw;
+    height: 10vw;
 }
 /*je met le hover en mauve*/
 a {
