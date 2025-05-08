@@ -235,22 +235,31 @@ video {
 /*#fin de la section haut de page#*/
 /*#debut section footer#/
 /*iphone first*/
+/* je formate la taille du rectangle gris du footer */
 footer {
     width: 100vw;
     height: 410.705px;
     background-color:#D9D9D9;
 }
 
+/* j'ajoute display flex pour qu'il soit responsive et que les éléments de la div se placent un après l'autre */
 .foot {
     display: flex;
-    width: 100vw;
+    width: 348px;
     height: 249.357px;
     align-items: flex-start;
 }
+/* je change la taille du logo pour qu'il entre dans le footer, j'ajoute un margin pour qu'il ne colle pas aux bordures du footer */
+.logo2 {
+    width: 243px;
+    height: 53px;
+    margin: 48px 0px 24px 10px;
+}
 
+/* je donne la taille et les propriétées au texte */
 .text {
-    width: 236.658px;
-    height: 348px;
+    width: 236px;
+    height: 150px;
     flex-shrink: 0;
     color: #000;
     font-family: "Roboto Mono";
@@ -258,13 +267,19 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 40px;
 }
 
-.logo2 {
-    width: 243px;
-    height: 53px;
+.resaux {
+    width: 120px;
+    height: 37px;
     flex-shrink: 0;
-    aspect-ratio: 243/53;
+}
+
+.conseil {
+    width: 157px;
+    height: 29px;
+    flex-shrink: 0;
 }
 /*#fin section footer#*/
 
