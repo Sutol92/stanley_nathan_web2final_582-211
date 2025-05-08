@@ -2,11 +2,16 @@
 @font-face {
     font-family:"Dela Gothic One";
     src: url(../assets/polices/DelaGothicOne-Regular.ttf) format('truetype');
-    font-family:"Roboto Mono";
-    src: url(../assets/polices/RobotoMono-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+    font-family:"Roboto Mono";
+    src:url(../assets/polices/RobotoMono-VariableFont_wght.ttf) format('truetype');
+}
+   
 /*#debut de la section haut de page#*/
 /*ici je fais le mobile first*/
+
+/*ici je gere mon haut de page au complet donc dimension couleur*/
 nav {
 
     display: flex;
@@ -15,7 +20,7 @@ nav {
     gap: -36px;
     align-self: stretch;
     background: black;
-    width: 100%;
+    width: 100vw;
     height: 100px;
 }
 /*je met le hover en mauve*/
@@ -25,6 +30,7 @@ a {
 a :hover {
     color: purple;
 }
+/*je genre la boite de ma barre de navigation*/
 .nav {
     display: flex;
     width: 154px;
@@ -66,7 +72,7 @@ a :hover {
     font-weight: 400;
     line-height: normal;
 }
-
+/* ici je gere la taille et le positionnement de la boite de mon logo*/
 .logo {
     display: flex;
     width: 200px;
@@ -76,7 +82,7 @@ a :hover {
     padding-right: 30%;
     margin-left: -7%;
 }
-
+/*je gere la taille de mon image du logo*/
 img {
     
     width: 450px;
@@ -110,7 +116,7 @@ img {
         justify-content: flex-end;
         align-items: center;
         gap: 19px;
-        flex-shrink: 0;
+        flex-shrink: 1;
     }
     /*ici es la hover pour le texte de ma nav*/
     nav :hover {
@@ -290,3 +296,18 @@ footer {
     flex-shrink: 0;
 }
 /*#fin section footer#*/
+
+/*#Debut Acceuil#*/
+/*ici je met mon video sur la largeur total de lecran et la positionne plus vers le haut pour avoir un crop plus interressant*/
+video {
+    width: 100vw;
+    flex-shrink: 0;
+    object-position:0px -300px;
+}
+
+
+/*#fin Acceuil#*/
+
+/*#Debut page artistes#*/
+
+/*#fin page artistes#*/
