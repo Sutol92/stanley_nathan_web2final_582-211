@@ -7,6 +7,10 @@
     font-family:"Roboto Mono";
     src:url(../assets/polices/RobotoMono-VariableFont_wght.ttf) format('truetype');
 }
+
+* {
+    box-sizing: border-box;
+}
    
 /*#debut de la section haut de page#*/
 /*ici je fais le mobile first*/
@@ -15,13 +19,11 @@
 nav {
 
     display: flex;
-    padding: 3px 59px 3px 10px;
     align-items: center;
-    gap: -36px;
     align-self: stretch;
     background: black;
     width: 100vw;
-    height: 100px;
+    height: 8vw;
 }
 /*je met le hover en mauve*/
 a {
@@ -29,15 +31,6 @@ a {
 }
 a :hover {
     color: purple;
-}
-/*je genre la boite de ma barre de navigation*/
-.nav {
-    display: flex;
-    width: 154px;
-    height: 150px;
-    padding: 0px 62px 1px 0px;
-    align-items: center;
-    margin-right: 2%;
 }
 
 .nav :hover {
@@ -67,56 +60,59 @@ a :hover {
     
     color: #FFF;
     font-family: "Dela Gothic One";
-    font-size: 230%;
-    font-style: normal;
+    font-size: 5vw;
     font-weight: 400;
-    line-height: normal;
 }
 /* ici je gere la taille et le positionnement de la boite de mon logo*/
 .logo {
-    display: flex;
-    width: 200px;
-    height: 49px;
-    align-items: center;
-    gap: -9px;
-    padding-right: 30%;
-    margin-left: -7%;
+    width: 40vw;
+    margin-right: 28vw;
 }
 /*je gere la taille de mon image du logo*/
 img {
     
-    width: 450px;
-    height: 270px;
+    width: 40vw;
     flex-shrink: 0;
 }
 
 .recherche {
     display: none;
 }
+/*#Debut Acceuil#*/
+/*ici je met mon video sur la largeur total de lecran et la positionne plus vers le haut pour avoir un crop plus interressant*/
+main {
+    width: 100vw;
+}
+video {
+    width: 100vw;
+    flex-shrink: 0;
+   /* object-position:0px -300px;*/
+}
 
+
+/*#fin Acceuil#*/
+
+/*#Debut page artistes#*/
+
+/*#fin page artistes#*/
 /*ceci son les modifications pour le haut de page desktop donc apartir de plus de 600px de largeur*/
 @media screen and (min-width: 767px){ 
     /*ceci es loto layout de mon haut de page au complet je vais donc faire quil prend la page au complet et gerer la distance entre mes elements*/
     nav {
+        padding: 0vw 15vw;
         display: flex;
-        width: 100%;
-        height: 149px;
-        padding: 3px 200px;
+        width: 100vw;
+        height: 8vw;
         justify-content: center;
         align-items: center;
-        gap: 54px;
+        gap: 5vw;
         flex-shrink: 0;
         background-color: black;
     }
     /*ceci est ma barre de nav donc ou il ya les textes, je vais donc faire son auto layout*/
     .nav {
         display: flex;
-        width: 700px;
-        height: 47px;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 19px;
-        flex-shrink: 1;
+        gap: 2vw;
     }
     /*ici es la hover pour le texte de ma nav*/
     nav :hover {
@@ -128,14 +124,12 @@ img {
     }
     .propos {
         display: flex;
-        width: 122px;
-        height: 27px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 18px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -144,14 +138,12 @@ img {
 
     .services {
         display: flex;
-        width: 126px;
-        height: 27px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 18px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -159,14 +151,12 @@ img {
 
     .oeuvres {
         display: flex;
-        width: 116px;
-        height: 27px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 18px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -174,14 +164,12 @@ img {
 
     .artistes {
         display: flex;
-        width: 128px;
-        height: 27px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 18px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -189,14 +177,12 @@ img {
 
     .contact {
         display: flex;
-        width: 117px;
-        height: 27px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 18px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -204,38 +190,23 @@ img {
 
     .fr {
         display: flex;
-        width: 72px;
-        height: 15px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
         color: #FFF;
         font-family: "Dela Gothic One";
-        font-size: 12px;
+        font-size: 0.9vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
     .logo {
-        display: flex;
-        width: 7%;
-        height: 85px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        aspect-ratio: 405/85;   
-        padding-right: 10%;
+        width: 0vw;  
     }
 
     img {
-        display: flex;
-        width: 800px;
-        height: 450px;
-        justify-content: center;
-        align-items: center;
+        width: 25vw;
         flex-shrink: 0;
-        aspect-ratio: 405.23/85.63;
-        padding-left: 5%;
     }
     .recherche {
         display: flex;
@@ -243,22 +214,38 @@ img {
     .recherche :hover {
         color: purple;
     }
+    /*#Debut Acceuil#*/
+/*ici je met mon video sur la largeur total de lecran et la positionne plus vers le haut pour avoir un crop plus interressant*/
+main {
+    width: 100vw;
+}
+video {
+    width: 100vw;
+    
+    flex-shrink: 0;
+   /* object-position:0px -300px;*/
+}
+
+/*#fin Acceuil#*/
+
+/*#Debut page artistes#*/
+
+/*#fin page artistes#*/
 }
 /*#fin de la section haut de page#*/
 /*#debut section footer#/
 /*iphone first*/
 footer {
-    width: 392px;
+    width: 100vw;
     height: 410.705px;
     background-color:#D9D9D9;
 }
 
 .foot {
     display: flex;
-    width: 348px;
+    width: 100vw;
     height: 249.357px;
     align-items: flex-start;
-    gap: -45px;
 }
 
 .text {
@@ -282,16 +269,3 @@ footer {
 /*#fin section footer#*/
 
 /*#Debut Acceuil#*/
-/*ici je met mon video sur la largeur total de lecran et la positionne plus vers le haut pour avoir un crop plus interressant*/
-video {
-    width: 100vw;
-    flex-shrink: 0;
-    object-position:0px -300px;
-}
-
-
-/*#fin Acceuil#*/
-
-/*#Debut page artistes#*/
-
-/*#fin page artistes#*/
