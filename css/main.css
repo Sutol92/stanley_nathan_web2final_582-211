@@ -1,3 +1,8 @@
+/*ici je met les fonts pour pour mon haut de page*/
+@font-face {
+    font-family:"Dela Gothic One";
+    src: url(../assets/polices/DelaGothicOne-Regular.ttf) format('truetype');
+}
 /*debut de la section haut de page*/
 /*ici je fais le mobile first*/
 nav {
@@ -80,14 +85,6 @@ img {
 .recherche {
     display: none;
 }
-/*ici je met les fonts pour pour mon haut de page*/
-@font-face {
-    font-family:"Dela Gothic One";
-    src: url('/stanley_nathan_web2final_582-211/assets/polices/DelaGothicOne-Regular.ttf') format('truetype');
-}
-
-
-
 
 /*ceci son les modifications pour le haut de page desktop donc apartir de plus de 600px de largeur*/
 @media screen and (min-width: 767px){ 
