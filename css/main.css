@@ -86,7 +86,6 @@ main {
 video {
     width: 100vw;
     flex-shrink: 0;
-   /* object-position:0px -300px;*/
 }
 
 
@@ -224,6 +223,25 @@ video {
     
     flex-shrink: 0;
    /* object-position:0px -300px;*/
+}
+
+/*ici je commence le main*/
+.titre {
+    font-weight: 400;
+    font-family: "Dela Gothic One";
+    font-size: 2vw;
+    text-align: center;
+    line-height: normal;
+    padding-top: 2vw;
+}
+
+.carousselle {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 3vw;
 }
 
 /*#fin Acceuil#*/
