@@ -300,7 +300,7 @@ video {
     line-height: normal;
     padding-top: 2vw;
 }
-
+/*ici je fais mes image des carousselle*/
 .carousselle {
     display: flex;
     width: 100vw;
@@ -309,7 +309,7 @@ video {
     gap: 2vw;
     margin-top: 3vw;
 }
-
+/*ici je vais gerer tout mes longue image de realisation*/
 .realisation img {
     display: block;
     margin-left: auto;
@@ -349,7 +349,8 @@ video {
     margin-top: 2vw;
     width: 80vw;  
 }
-
+/*fin des longue images de realisation*/
+/*ici je cree mon bouton en voir plus*/
 .bouton {
     display: block;
     width: 80vw;
