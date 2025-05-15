@@ -86,7 +86,6 @@ main {
 video {
     width: 100vw;
     flex-shrink: 0;
-   /* object-position:0px -300px;*/
 }
 
 
