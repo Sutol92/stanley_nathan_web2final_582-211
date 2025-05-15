@@ -235,6 +235,15 @@ video {
     padding-top: 2vw;
 }
 
+.carousselle {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 3vw;
+}
+
 /*#fin Acceuil#*/
 
 /*#Debut page artistes#*/
