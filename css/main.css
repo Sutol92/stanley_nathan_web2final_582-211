@@ -367,6 +367,10 @@ video {
     padding: 10px;
 }
 
+.bouton:hover{
+    color: rgb(193, 0, 193);
+    border: 2px solid rgb(193, 0, 193);
+}
 
 /*#fin Acceuil#*/
 
