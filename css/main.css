@@ -557,6 +557,7 @@ h2 {
     font-family: "Dela Gothic One";
     font-size: 3vw;
     margin-left: 75vw;
+    width: 2vw;
 }
 
 h2:hover {
