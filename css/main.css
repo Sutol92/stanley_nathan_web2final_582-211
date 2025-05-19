@@ -464,23 +464,53 @@ video {
 h1 {
     color: #000;
     font-family: "Dela Gothic One";
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 400;
-    margin-left: 5vw;
+    margin-left: 15vw;
 }
 /*ici je fais le heros de la page a propos*/
 .img_apropos img {
     width: 90vw;
-    margin-left: 5vw;
+    margin-left: 4vw ;
     margin-top: 2vw;
 }
-
+/*ici je vais faire le texte de notre mission en fesant le titre puis le long texte*/
 .texte_titre {
     font-family: "Roboto Mono";
+    font-size: 20px;
+    margin-bottom: 1vw;
 }
 
 .texte {
     font-family: "Roboto Mono";
+    text-align: justify;
+}
+/*ici je vais gere la taille de la boite qui encadre le texte*/
+.texte_box {
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+/*ici je fais le bouton en savoir plus pour le a propos avec son hover*/
+.bouton {
+    display: block;
+    width: 70vw;
+    font-size: 1.3vw;
+    font-family: "Dela Gothic One";
+    color: purple;
+    border: 2px purple solid;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bouton:hover{
+    color: rgb(255, 255, 255);
+    background-color: purple;
 }
 
 /*#fin a propos#*/
