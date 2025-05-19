@@ -465,14 +465,15 @@ h1 {
     color: #000;
     font-family: "Dela Gothic One";
     font-size: 2vw;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+}
+/*ici je fais le heros de la page a propos*/
+.img_apropos img {
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.img_a_propos img {
-
-}
 /*#fin a propos#*/
 /*#Debut page artistes#*/
 
