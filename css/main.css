@@ -459,7 +459,21 @@ video {
 }
 
 /*#fin Acceuil#*/
+/*#debut a propos#*/
+/*ici je fais mon titre notre mission*/
+h1 {
+    color: #000;
+    font-family: "Dela Gothic One";
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.img_a_propos img {
+
+}
+/*#fin a propos#*/
 /*#Debut page artistes#*/
 
 /*#fin page artistes#*/
