@@ -466,12 +466,21 @@ h1 {
     font-family: "Dela Gothic One";
     font-size: 2vw;
     font-weight: 400;
+    margin-left: 5vw;
 }
 /*ici je fais le heros de la page a propos*/
 .img_apropos img {
-    width: 65vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.texte_titre {
+    font-family: "Roboto Mono";
+}
+
+.texte {
+    font-family: "Roboto Mono";
 }
 
 /*#fin a propos#*/
