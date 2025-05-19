@@ -462,7 +462,7 @@ video {
 
 /*#fin Acceuil#*/
 /*#debut a propos#*/
-/*ici je fais mon titre notre mission*/
+/*ici je fais mes titres en h1*/
 h1 {
     color: #000;
     font-family: "Dela Gothic One";
@@ -479,13 +479,14 @@ h1 {
 /*ici je vais faire le texte de notre mission en fesant le titre puis le long texte*/
 .texte_titre {
     font-family: "Roboto Mono";
-    font-size: 20px;
+    font-size: 200%;
     margin-bottom: 1vw;
 }
 
 .texte {
     font-family: "Roboto Mono";
     text-align: justify;
+    font-size: 150%;
 }
 /*ici je vais gere la taille de la boite qui encadre le texte*/
 .texte_box {
@@ -503,7 +504,7 @@ h1 {
     border: 2px #9747FF solid;
     text-align: center;
     margin-top: 2vw;
-    margin-bottom: 10vw;
+    margin-bottom: 2vw;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -515,6 +516,19 @@ h1 {
     background-color: #9747FF;
     border: #9747FF solid 2px;
 }
+
+/*ici je vais faire mes trois photos pour lhistorique*/
+.equipe img {
+    width: 25vw;
+    padding: 1vw;
+}
+
+.equipe {
+    margin-left:13vw;
+}
+
+
+
 
 /*#fin a propos#*/
 /*#Debut page artistes#*/
