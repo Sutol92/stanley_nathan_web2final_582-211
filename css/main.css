@@ -30,11 +30,11 @@ a {
     color: #FFF;
 }
 a :hover {
-    color: purple;
+    color: #9747FF;
 }
 
 .nav :hover {
-    color: purple;
+    color: #9747FF;
 }
 /*ici je massure que tout les element pas sur la page mobile ne soit pas present*/
 .propos {
@@ -154,13 +154,13 @@ video {
 }
 
 /*ici je cree mon bouton en voir plus*/
-.bouton {
+.bouton_A {
     display: block;
     width: 80vw;
     font-size: 2vw;
     font-family: "Dela Gothic One";
-    color: purple;
-    border: 2px purple solid;
+    color: #9747FF;
+    border: 2px #9747FF solid;
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 10vw;
@@ -170,9 +170,10 @@ video {
     padding: 10px;
 }
 
-.bouton:hover{
-    color: rgb(193, 0, 193);
-    border: 2px solid rgb(193, 0, 193);
+.bouton_A:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid #9747FF;
+    background-color: #9747FF;
 }
 /*#fin Acceuil#*/
 
@@ -200,7 +201,7 @@ video {
     }
     /*ici es la hover pour le texte de ma nav*/
     nav :hover {
-        color: purple;
+        color: #9747FF;
     }
     /*ici je massure que la parti menu je soit pas sur la version desktop*/
     .menu {
@@ -296,7 +297,7 @@ video {
         display: flex;
     }
     .recherche :hover {
-        color: purple;
+        color:#9747FF;
     }
     /*Debut footer */
     /* je formate la taille du rectangle gris du footer */
@@ -437,13 +438,13 @@ video {
 
 /*fin des longue images de realisation*/
 /*ici je cree mon bouton en voir plus*/
-.bouton {
+.bouton_A {
     display: block;
     width: 80vw;
     font-size: 1.3vw;
     font-family: "Dela Gothic One";
-    color: purple;
-    border: 2px purple solid;
+    color: #9747FF;
+    border: 2px #9747FF solid;
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 10vw;
@@ -453,9 +454,10 @@ video {
     padding: 10px;
 }
 
-.bouton:hover{
-    color: rgb(193, 0, 193);
-    border: 2px solid rgb(193, 0, 193);
+.bouton_A:hover{
+    color: rgb(255, 255, 255);
+    background-color: #9747FF;
+    border: #9747FF solid 2px;
 }
 
 /*#fin Acceuil#*/
@@ -492,13 +494,13 @@ h1 {
 }
 
 /*ici je fais le bouton en savoir plus pour le a propos avec son hover*/
-.bouton {
+.bouton_P {
     display: block;
     width: 70vw;
     font-size: 1.3vw;
     font-family: "Dela Gothic One";
-    color: purple;
-    border: 2px purple solid;
+    color: #9747FF;
+    border: 2px #9747FF solid;
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 10vw;
@@ -508,9 +510,10 @@ h1 {
     padding: 10px;
 }
 
-.bouton:hover{
+.bouton_P:hover{
     color: rgb(255, 255, 255);
-    background-color: purple;
+    background-color: #9747FF;
+    border: #9747FF solid 2px;
 }
 
 /*#fin a propos#*/
