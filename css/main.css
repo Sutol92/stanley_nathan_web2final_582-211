@@ -36,6 +36,10 @@ a :hover {
 .nav :hover {
     color: #9747FF;
 }
+
+.logo:hover {
+    opacity: 70%;
+}
 /*ici je massure que tout les element pas sur la page mobile ne soit pas present*/
 .propos {
     display:none;
@@ -180,9 +184,10 @@ video {
 h1 {
     color: #000;
     font-family: "Dela Gothic One";
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 400;
     margin-left: 5vw;
+    text-align: center;
 }
 /*ici je fais le heros de la page a propos*/
 .img_apropos img {
@@ -259,44 +264,57 @@ h1 {
 }
 
 .iphone img {
+    display: block;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
     
 }
 
 /*ici je vais gere les photo des trois membre de lequipe*/
 .membres {
-    display: flex;
+    display: block;
     margin-left:11vw;
     margin-bottom: 4vw;
 }
 
 .membres img {
-    width: 25vw;
-    padding-left: 5vw;
+    display: block;
+    width: 45vw;
+    margin-left: 20vw;
 }
 
 /*ici je vais faire les texte pour decrire les membre*/
 h3 {
-    width: 25vw;
+    width: 50vw;
     text-align: center;
     font-family: "Dela Gothic One";
-    font-size: 1vw;
-    padding-left: 5vw;
+    font-size: 2.5vw;
+    padding-left: 0vw;
+    margin-left: 17vw;
 }
 
 h3:hover {
     color: #9747FF;
 }
 
-/*ici je fais mes bouton +-*/
+/*ici je fais mon bouton +*/
 h2 {
     font-family: "Dela Gothic One";
-    font-size: 3vw;
+    font-size: 7vw;
     margin-left: 75vw;
     width: 2vw;
 }
 
 h2:hover {
     color: #9747FF;
+}
+
+/*ici je fais en sorte que mes h1 du bas de pahe soit different que le reste*/
+.bas h1 {
+    text-align: left;
+    width: 70vw;
 }
 /*#fin a propos#*/
 /*#Debut page artistes#*/
@@ -596,6 +614,7 @@ h1 {
     font-size: 2.5vw;
     font-weight: 400;
     margin-left: 15vw;
+    text-align: left;
 }
 /*ici je fais le heros de la page a propos*/
 .img_apropos img {
@@ -655,11 +674,13 @@ h1 {
     padding: 1vw;
 }
 
-
 .equipe {
     margin-left:13vw;
 }
 
+.iphone img {
+    display: none;
+}
 /*ici je vais gere les photo des trois membre de lequipe*/
 .membres {
     display: flex;
@@ -670,6 +691,7 @@ h1 {
 .membres img {
     width: 25vw;
     padding-left: 5vw;
+    margin-left: 0vw;
 }
 
 /*ici je vais faire les texte pour decrire les membre*/
@@ -679,6 +701,7 @@ h3 {
     font-family: "Dela Gothic One";
     font-size: 1vw;
     padding-left: 5vw;
+    margin-left: 0vw;
 }
 
 h3:hover {
