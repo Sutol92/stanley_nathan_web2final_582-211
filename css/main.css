@@ -176,7 +176,129 @@ video {
     background-color: #9747FF;
 }
 /*#fin Acceuil#*/
+/*#debut a propos#*/
+h1 {
+    color: #000;
+    font-family: "Dela Gothic One";
+    font-size: 4vw;
+    font-weight: 400;
+    margin-left: 5vw;
+}
+/*ici je fais le heros de la page a propos*/
+.img_apropos img {
+    width: 90vw;
+    margin-left: 3vw ;
+    margin-top: 2vw;
+}
+/*ici je vais faire le texte de notre mission en fesant le titre puis le long texte*/
+.texte_titre {
+    font-family: "Roboto Mono";
+    font-size: 120%;
+    margin-bottom: 1vw;
+}
 
+.texte {
+    font-family: "Roboto Mono";
+    text-align: justify;
+    font-size: 100%;
+}
+/*ici je vais gere la taille de la boite qui encadre le texte*/
+.texte_box {
+    width: 85vw;
+    margin-left: 5vw;
+}
+
+/*ici je fais le bouton en savoir plus pour le a propos avec son hover*/
+.bouton_P {
+    display: block;
+    width: 80vw;
+    font-size: 2.5vw;
+    font-family: "Dela Gothic One";
+    color: #9747FF;
+    border: 2px #9747FF solid;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bouton_P:hover{
+    color: rgb(255, 255, 255);
+    background-color: #9747FF;
+    border: #9747FF solid 2px;
+}
+
+/*ici je fais le bouton qui es seulement sur iphone*/
+.B {
+     display: block;
+    width: 80vw;
+    font-size: 2.5vw;
+    font-family: "Dela Gothic One";
+    color: #9747FF;
+    border: 2px #9747FF solid;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.B:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9747FF;
+    border: #9747FF solid 2px;
+}
+/*ici je vais faire mes trois photos pour lhistorique*/
+.equipe img {
+    display: none;
+}
+
+.iphone img {
+    
+}
+
+/*ici je vais gere les photo des trois membre de lequipe*/
+.membres {
+    display: flex;
+    margin-left:11vw;
+    margin-bottom: 4vw;
+}
+
+.membres img {
+    width: 25vw;
+    padding-left: 5vw;
+}
+
+/*ici je vais faire les texte pour decrire les membre*/
+h3 {
+    width: 25vw;
+    text-align: center;
+    font-family: "Dela Gothic One";
+    font-size: 1vw;
+    padding-left: 5vw;
+}
+
+h3:hover {
+    color: #9747FF;
+}
+
+/*ici je fais mes bouton +-*/
+h2 {
+    font-family: "Dela Gothic One";
+    font-size: 3vw;
+    margin-left: 75vw;
+    width: 2vw;
+}
+
+h2:hover {
+    color: #9747FF;
+}
+/*#fin a propos#*/
 /*#Debut page artistes#*/
 
 /*#fin page artistes#*/
@@ -202,6 +324,11 @@ video {
     /*ici es la hover pour le texte de ma nav*/
     nav :hover {
         color: #9747FF;
+    }
+
+    /*ici je fais le hover pour mon logo*/
+    .logo:hover {
+        opacity: 70%;
     }
     /*ici je massure que la parti menu je soit pas sur la version desktop*/
     .menu {
@@ -517,11 +644,17 @@ h1 {
     border: #9747FF solid 2px;
 }
 
+.B {
+    display: none;
+}
+
 /*ici je vais faire mes trois photos pour lhistorique*/
 .equipe img {
+    display: inline;
     width: 25vw;
     padding: 1vw;
 }
+
 
 .equipe {
     margin-left:13vw;
