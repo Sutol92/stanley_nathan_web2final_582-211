@@ -197,43 +197,23 @@ video {
 
 /*ici je vais faire toute mes images pour les realisation*/
 .realisation img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vw;
-    width: 80vw;  
+    display: none; 
 }
 
 .confiture img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-    width: 80vw;  
+    display:none; 
 }
 
 .bruire img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-    width: 80vw;  
+    display:none;  
 }
 
 .projet img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-    width: 80vw;  
+    display:none; 
 }
 
 .morphosis img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-    width: 80vw;  
+    display: none; 
 }
 
 /*ici je cree mon bouton en voir plus*/
