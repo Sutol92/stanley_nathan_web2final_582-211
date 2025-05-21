@@ -248,7 +248,7 @@ video {
     width: 25vw;
 }
 
-/*ici je vais faire toute mes images pour les realisation*/
+/*ici je vais faire toute mes images pour les realisation et leur hover avec un ease in et ease out de 0.5s*/
 .realisation img {
     display: none; 
 }
@@ -275,6 +275,11 @@ video {
     margin-right: auto;
     width: 70vw;
     margin-top: 5vw;
+    transition: 0.5s;
+}
+
+.realisation_iphone img:hover {
+    opacity: 80%;
 }
 
 .confiture_iphone img {
@@ -283,6 +288,11 @@ video {
     margin-right: auto;
     width: 70vw; 
     margin-top: 5vw;
+    transition: 0.5s;
+}
+
+.confiture_iphone img:hover {
+    opacity: 80%;
 }
 
 .bruire_iphone img {
@@ -291,6 +301,11 @@ video {
     margin-right: auto;
     width: 70vw;  
     margin-top: 5vw;
+    transition: 0.5s;
+}
+
+.bruire_iphone img:hover {
+    opacity: 80%;
 }
 
 .projet_iphone img {
@@ -299,6 +314,11 @@ video {
     margin-right: auto;
     width: 70vw; 
     margin-top: 5vw;
+    transition: 0.5s;
+}
+
+.projet_iphone img:hover {
+    opacity: 80%;
 }
 
 .morphosis_iphone img {
@@ -307,6 +327,11 @@ video {
     margin-right: auto;
     width: 70vw; 
     margin-top: 5vw;
+    transition: 0.5s;
+}
+
+.morphosis_iphone img:hover {
+    opacity: 80%;
 }
 
 /*ici je cree mon bouton en voir plus*/
