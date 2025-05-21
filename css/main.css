@@ -168,6 +168,15 @@ video {
     padding-top: 2vw;
 }
 
+.titre_2 {
+    font-weight: 400;
+    font-family: "Dela Gothic One";
+    font-size: 5vw;
+    text-align: center;
+    line-height: normal;
+    padding-top: 5vw;
+}
+
 /*ici je vais gerer la taille de mon carouselle et le placer*/
 .carousselle {
     display: none;
@@ -620,6 +629,10 @@ video {
     text-align: center;
     line-height: normal;
     padding-top: 2vw;
+}
+
+.titre_2 {
+    display: none;
 }
 /*ici je fais mes image des carousselle*/
 .carousselle {
