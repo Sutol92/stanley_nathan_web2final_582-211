@@ -170,12 +170,11 @@ video {
 
 /*ici je vais gerer la taille de mon carouselle*/
 .carousselle {
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    margin-top: 3vw;
+    display: none;
+}
+
+.carousselle_iphone {
+    
 }
 
 /*je redimensionne les image de mon carouselle*/
