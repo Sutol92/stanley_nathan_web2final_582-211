@@ -329,7 +329,7 @@ video {
 /*#fin Acceuil#*/
 
 
-/*#Debut Acceuil#*/
+
 
 /*#debut a propos#*/
 h1 {
@@ -450,23 +450,61 @@ h3:hover {
     color: #9747FF;
 }
 
-/*ici je fais mon bouton +*/
-h2 {
-    font-family: "Dela Gothic One";
-    font-size: 7vw;
-    margin-left: 75vw;
-    width: 2vw;
+
+/*ici je fais en sorte que mes h1 du bas de page soit different que le reste et je vais cree le changement de symbole sur le click*/
+.bas {
+  width: 100%;
 }
 
-h2:hover {
+.bas h1{
+  font-family: "Dela Gothic One";
+  margin-bottom: 10vw;
+  font-size: 5vw;
+  margin-left: 0vw;
+  text-align: left;
+}
+
+/* Ligne = une ligne de titre + symbole */
+.ligne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  width: 70vw;
+}
+
+/* Style du + / - */
+.symbole {
+  font-size: 8vw;
+  font-family: "Dela Gothic One";
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  width: 2vw;
+  position: absolute;
+  right: 20vw;
+}
+
+.symbole:hover {
     color: #9747FF;
 }
 
-/*ici je fais en sorte que mes h1 du bas de pahe soit different que le reste*/
-.bas h1 {
-    text-align: left;
-    width: 70vw;
+/* Affiche + par défaut */
+#section1 + .symbole::before,
+#section2 + .symbole::before,
+#section3 + .symbole::before {
+  content: "+";
 }
+
+/* Affiche - si coché */
+#section1:checked + .symbole::before,
+#section2:checked + .symbole::before,
+#section3:checked + .symbole::before {
+  content: "−";
+}
+
+
+
 /*#fin a propos#*/
 /*#Debut page artistes#*/
 
@@ -920,6 +958,57 @@ h2 {
 h2:hover {
     color: #9747FF;
 }
+
+/*ici je fais en sorte que mes h1 du bas de pahe soit different que le reste*/
+.bas {
+  width: 100%;
+}
+
+.bas h1{
+  font-family: "Dela Gothic One";
+  margin-bottom: 10vw;
+  font-size: 3vw;
+  margin-left: 15vw;
+}
+
+/* Ligne = une ligne de titre + symbole */
+.ligne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+
+/* Style du + / - */
+.symbole {
+  font-size: 3vw;
+  font-family: "Dela Gothic One";
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  width: 2vw;
+  position: absolute;
+  right: 20vw;
+}
+
+.symbole:hover {
+    color: #9747FF;
+}
+
+/* Affiche + par défaut */
+#section1 + .symbole::before,
+#section2 + .symbole::before,
+#section3 + .symbole::before {
+  content: "+";
+}
+
+/* Affiche - si coché */
+#section1:checked + .symbole::before,
+#section2:checked + .symbole::before,
+#section3:checked + .symbole::before {
+  content: "−";
+}
+
 /*#fin a propos#*/
 /*#Debut page artistes#*/
 
