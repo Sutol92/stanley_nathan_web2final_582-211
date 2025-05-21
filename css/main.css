@@ -59,14 +59,62 @@ a :hover {
 .fr {
     display: none;
 }
-/*ici je moccupe de mon bouton menu*/
+/*ici je moccupe de mon bouton menu et la creation du burger*/
 .menu {
-    
     color: #FFF;
     font-family: "Dela Gothic One";
     font-size: 5vw;
     font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    background-color: black;
+    border-radius: 8px;
 }
+
+/* Conteneur du menu burger avec animation */
+.menu-burger {
+    background-color: #141414;
+    color: white;
+    font-family: "Dela Gothic One";
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+/* Afficher et animer le menu quand la case est cochée */
+#toggle-menu:checked + label + .menu-burger {
+    max-height: 500px;
+    padding: 1em;
+}
+
+.menu-burger ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-burger li {
+    margin: 10px 0;
+}
+
+.menu-burger li:hover {
+    color: #9747FF;
+}
+
+.menu-burger a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
 /* ici je gere la taille et le positionnement de la boite de mon logo*/
 .logo {
     width: 40vw;
