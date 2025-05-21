@@ -162,19 +162,23 @@ video {
 .titre {
     font-weight: 400;
     font-family: "Dela Gothic One";
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     line-height: normal;
     padding-top: 2vw;
 }
 
-/*ici je vais gerer la taille de mon carouselle*/
+/*ici je vais gerer la taille de mon carouselle et le placer*/
 .carousselle {
     display: none;
 }
 
-.carousselle_iphone {
-    
+.carousselle_iphone img {
+    display: block;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
 }
 
 /*je redimensionne les image de mon carouselle*/
@@ -626,6 +630,11 @@ video {
     gap: 2vw;
     margin-top: 3vw;
 }
+
+.carousselle_iphone {
+    display: none;
+}
+
 /*ici je vais gerer tout mes longue image de realisation*/
 .realisation img {
     display: block;
