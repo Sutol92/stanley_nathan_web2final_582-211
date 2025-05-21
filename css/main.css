@@ -216,6 +216,46 @@ video {
     display: none; 
 }
 
+.realisation_iphone img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    margin-top: 5vw;
+}
+
+.confiture_iphone img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw; 
+    margin-top: 5vw;
+}
+
+.bruire_iphone img {
+     display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;  
+    margin-top: 5vw;
+}
+
+.projet_iphone img {
+     display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw; 
+    margin-top: 5vw;
+}
+
+.morphosis_iphone img {
+     display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw; 
+    margin-top: 5vw;
+}
+
 /*ici je cree mon bouton en voir plus*/
 .bouton_A {
     display: block;
@@ -667,6 +707,31 @@ video {
     margin-right: auto;
     margin-top: 2vw;
     width: 80vw;  
+}
+
+.realisation_iphone img {
+    display: none; 
+    
+}
+
+.confiture_iphone img {
+    display: none; 
+    
+}
+
+.bruire_iphone img {
+     display: none; 
+    
+}
+
+.projet_iphone img {
+     display: none; 
+    
+}
+
+.morphosis_iphone img {
+     display: none; 
+    
 }
 
 /*fin des longue images de realisation*/
