@@ -625,7 +625,8 @@ h3:hover {
         line-height: normal;
     }
     .logo {
-        width: 0vw;  
+        width: 0vw; 
+        transition: 0.3s; 
     }
 
     img {
