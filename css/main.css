@@ -365,6 +365,7 @@ video {
     margin-right: auto;
     border-radius: 10px;
     padding: 15px;
+    transition:  ease-in-out 0.3s;
 }
 
 .bouton_A:hover{
@@ -429,6 +430,7 @@ h1 {
     margin-right: auto;
     border-radius: 10px;
     padding: 20px;
+    transition: ease-in-out  0.3s;
 }
 
 .bouton_P:hover{
@@ -452,6 +454,7 @@ h1 {
     margin-right: auto;
     border-radius: 10px;
     padding: 20px;
+    transition: ease-in-out 0.3s;
 }
 
 .B:hover {
@@ -533,6 +536,7 @@ h3:hover {
   width: 2vw;
   position: absolute;
   right: 20vw;
+  transition: 0.3s ease-in-out;
 }
 
 .symbole:hover {
