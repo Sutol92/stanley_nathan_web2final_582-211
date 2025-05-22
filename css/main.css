@@ -11,6 +11,78 @@
 * {
     box-sizing: border-box;
 }
+
+/*----------------------------------------------------------------------------------
+animation perte de signal qui ce jou en boucle
+--------------------------------------------------------------------------------*/
+
+.glitch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  animation: glitchTrigger 10s infinite;
+}
+
+@keyframes glitchTrigger {
+  0%, 97%, 100% { opacity: 0; }
+  48%, 52% { opacity: 1; }
+}
+
+.glitch_couleur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  mix-blend-mode: screen;
+  animation: glitchAnim 0.3s steps(1, end) infinite;
+}
+
+.glitch_couleur:nth-child(1) {
+  background: rgba(255, 0, 0, 0.05);
+  animation-delay: 0s;
+}
+
+.glitch_couleur:nth-child(2) {
+  background: rgba(0, 255, 255, 0.05);
+  animation-delay: 0.05s;
+}
+
+.glitch_couleur:nth-child(3) {
+  background: rgba(255, 255, 255, 0.01);
+  animation-delay: 0.1s;
+}
+
+@keyframes glitchAnim {
+  0% {
+    clip-path: inset(20% 0 70% 0);
+    transform: translate(3px, -2px);
+  }
+  25% {
+    clip-path: inset(50% 0 30% 0);
+    transform: translate(-2px, 1px);
+  }
+  50% {
+    clip-path: inset(10% 0 85% 0);
+    transform: translate(2px, -1px);
+  }
+  75% {
+    clip-path: inset(30% 0 50% 0);
+    transform: translate(-1px, 2px);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    transform: none;
+  }
+}
+
+
    
 /*-------------------------------------------------------------------
 #debut de la section haut de page#
