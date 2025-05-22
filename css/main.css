@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
 /*----------------------------------------------------------------------------------
 animation perte de signal qui ce jou en boucle
 --------------------------------------------------------------------------------*/
@@ -202,6 +207,7 @@ a :hover {
 .logo {
     width: 40vw;
     margin-right: 28vw;
+    margin-left: 2vw;
 }
 /*je gere la taille de mon image du logo*/
 img {
@@ -465,8 +471,10 @@ h1 {
 }
 /*ici je fais le heros de la page a propos*/
 .img_apropos img {
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
     width: 90vw;
-    margin-left: 3vw ;
     margin-top: 2vw;
 }
 /*ici je vais faire le texte de notre mission en fesant le titre puis le long texte*/
@@ -569,6 +577,7 @@ h3 {
     font-size: 2.5vw;
     padding-left: 0vw;
     margin-left: 17vw;
+    transition: color 0.3s ease-in-out;
 }
 
 h3:hover {
