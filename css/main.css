@@ -648,6 +648,46 @@ h3:hover {
 /*-----------------------------------------------------------------------------
 #Debut page artistes#
 ---------------------------------------------------------------------------------*/
+.tartistes {
+    color: #000;
+    text-align: justify;
+    font-family: "Roboto Mono";
+    width: 80vw;
+    font-size: 2.5vw;
+    margin: 0 0 0 10vw;
+    
+}
+
+.tous_artiste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artiste {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3vw 0 4vw;
+}
+
+.img_art {
+    aspect-ratio: 1/1;
+}
+
+.artiste_link{
+    display: flex;
+    justify-content: center;
+    font-family: "Dela Gothic One";
+    text-decoration: none;
+    color: #000;
+    font-size: 2vh;
+    text-align: center;
+}
+
+._link:hover{
+    color: #9747FF;
+}
+
 
 
 /*-------------------------------------------------------------------------------
@@ -657,35 +697,43 @@ h3:hover {
 /*--------------------------------------------------------------------------------
 #debut page services professionnels
 ----------------------------------------------------------------------------------*/
-
 .tservices {
     color: #000;
     text-align: justify;
     font-family: "Roboto Mono";
+    width: 80vw;
     font-size: 2.5vw;
-    margin: 2vw;
+    margin: 0 0 0 10vw;
     
+}
+
+.tous_clients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .client {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.texte_client {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 3vw 0 4vw;
 }
 
 .client_link{
+    display: flex;
+    justify-content: center;
     font-family: "Dela Gothic One";
     text-decoration: none;
     color: #000;
     font-size: 2vh;
     text-align: center;
 }
+
+.client_link:hover{
+    color: #9747FF;
+}
+
+
 /*----------------------------------------------------------------------------------
 #fin page services pro#
 ------------------------------------------------------------------------------------*/
@@ -1238,10 +1286,100 @@ h2:hover {
 /*---------------------------------------------------------------------------------
 #Debut page artistes#
 ------------------------------------------------------------------------------------*/
+.titre_art {
+    text-align: center;
+    margin-right: 16vw;
+}
+}
 
+.tartistes {
+     color: #000;
+    text-align: justify;
+    font-family: "Roboto Mono";
+    width: 80vw;
+    font-size: 2.5vw;
+    margin: 0 0 0 10vw;
+    
+}
+
+.tous_artiste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artiste {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3vw 0 4vw;
+}
+
+.img_art {
+    aspect-ratio: 1/1;
+}
+
+.artiste_link{
+    display: flex;
+    justify-content: center;
+    font-family: "Dela Gothic One";
+    text-decoration: none;
+    color: #000;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.artiste_link:hover{
+    color: #9747FF;
+}
 
 /*---------------------------------------------------------------------------------
 #fin page artistes#
 -------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------
+#debut page services professionnels
+----------------------------------------------------------------------------------*/
+.titre_sp{
+    text-align: center;
+    margin-right: 16vw;
 }
+
+.tservices {
+    color: #000;
+    text-align: justify;
+    font-family: "Roboto Mono";
+    width: 80vw;
+    font-size: 2.5vw;
+    margin: 0 0 0 10vw;
+    
+}
+
+.tous_clients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3vw 0 4vw;
+}
+
+.client_link{
+    display: flex;
+    justify-content: center;
+    font-family: "Dela Gothic One";
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.client_link:hover{
+    color: #9747FF;
+}
+/*----------------------------------------------------------------------------------
+#fin page services pro#
+------------------------------------------------------------------------------------*/
+
 
