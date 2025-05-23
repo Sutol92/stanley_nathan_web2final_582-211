@@ -259,12 +259,12 @@ footer {
     line-height: normal;
     margin-left: 4vw;
 }
-
+/* je met display flex pour que mes images s'affichent une a coté de l'autre */
 .reference {
     display: flex;
     flex-direction: row;
 }
-
+/* je donne la taille aux l'images du footer */
 .resaux {
     width: 30vw;
     height: 100%;
@@ -276,7 +276,7 @@ footer {
     height: 100%;
     margin: 6vh 5vw 0 0;
 }
-
+/* display flex collum pour que les mots s'affichent d'en haut en bas et je donne la taille a la boite de texte et le texte */
 .copyright {
     margin-left: 36vw;
     width: 30vw;
@@ -287,7 +287,7 @@ footer {
     font-size: 2vw;
     margin: 0 5vw 0 0;
 }
-
+/* dans la page figma on ne les voit pas jusqu'a ce que l'écran grandissent */
 .links {
     display: none;
 }
@@ -648,6 +648,7 @@ h3:hover {
 /*-----------------------------------------------------------------------------
 #Debut page artistes#
 ---------------------------------------------------------------------------------*/
+/* je stylise le titre de la page */
 .tartistes {
     color: #000;
     text-align: justify;
@@ -657,23 +658,23 @@ h3:hover {
     margin: 0 0 0 10vw;
     
 }
-
+/* je veux que les artistes s'affichent de gauche a droite et qu'ils sautent d'une ligne si il y a plus de place */
 .tous_artiste {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* je veux que l'image de l'artiste et son nom s'affiche d'haut en bas */
 .artiste {
     display: flex;
     flex-direction: column;
     margin: 0 3vw 0 4vw;
 }
-
+/* je veux m'assurer que toutes les images aient le même format */
 .img_art {
     aspect-ratio: 1/1;
 }
-
+/* je centre le lien et je configure la taille du texte */
 .artiste_link{
     display: flex;
     justify-content: center;
@@ -683,7 +684,7 @@ h3:hover {
     font-size: 2vh;
     text-align: center;
 }
-
+/* j'ajoute une couleur mauve pour le survol des liens */
 ._link:hover{
     color: #9747FF;
 }
@@ -697,6 +698,7 @@ h3:hover {
 /*--------------------------------------------------------------------------------
 #debut page services professionnels
 ----------------------------------------------------------------------------------*/
+/* je stylise le titre de la page */
 .tservices {
     color: #000;
     text-align: justify;
@@ -706,19 +708,19 @@ h3:hover {
     margin: 0 0 0 10vw;
     
 }
-
+/* je veux que les clients s'affichent de gauche a droite et qu'ils sautent d'une ligne si il y a plus de place */
 .tous_clients {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* je veux que l'image du client et son nom s'affiche d'haut en bas */
 .client {
     display: flex;
     flex-direction: column;
     margin: 0 3vw 0 4vw;
 }
-
+/* je centre le lien et je configure la taille du texte */
 .client_link{
     display: flex;
     justify-content: center;
@@ -728,7 +730,7 @@ h3:hover {
     font-size: 2vh;
     text-align: center;
 }
-
+/* j'ajoute une couleur mauve pour le survol des liens */
 .client_link:hover{
     color: #9747FF;
 }
@@ -908,12 +910,12 @@ h3:hover {
         display: flex;
         flex-direction: row;
     }
-
+    /* je met display flex pour que mes images s'affichent une a coté de l'autre */
     .reference{
         display: flex;
         flex-direction: row;
     }
-
+    /* je donne la taille aux l'images du footer */
     .resaux {
         width: 26vw;
         height: 100%;
@@ -926,14 +928,14 @@ h3:hover {
         height: 100%;
         margin: 0 5vw 0 0;
     }
-
+    /* j'ajoute un margin left pour pousser le texte vers le coins droite de la page */
     .copyright {
         margin-left: 36vw;
         width: 20vw;
         height: 47px;
         font-size: 0.8vw;
     }
-
+    /* j'affiche les liens et j'ajoute display flex en column pour qu'ils s'affichent d'en haut en bas */
     .links {
         display: flex;
         flex-direction: column;
@@ -941,11 +943,11 @@ h3:hover {
         margin: 0 10vw 0 10vw;
         font-family: "Dela Gothic One";
     }
-
+    /* j'ajoute un hover mauve aux liens */
     .links :hover {
         color:#9747FF;
     }
-
+    /* je veux enlever les effets de base sur mes liens */
     .site {
         text-decoration: none;
         color: #000;
@@ -1286,12 +1288,13 @@ h2:hover {
 /*---------------------------------------------------------------------------------
 #Debut page artistes#
 ------------------------------------------------------------------------------------*/
+/* je centre le titre */
 .titre_art {
     text-align: center;
     margin-right: 16vw;
 }
 }
-
+/* je place et stylise le texte qui parle des artistes */
 .tartistes {
      color: #000;
     text-align: justify;
@@ -1301,23 +1304,23 @@ h2:hover {
     margin: 0 0 0 10vw;
     
 }
-
+/* je veux que toutes les images et textes d'artistes s'affichent de gauche a droite et passe a la prochaine ligne si il n'ya plus de place */
 .tous_artiste {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* je veux que le nom de l'artiste s'affiche en dessous de son image */
 .artiste {
     display: flex;
     flex-direction: column;
     margin: 0 3vw 0 4vw;
 }
-
+/* je m'assure que toutes les images ont le même format */
 .img_art {
     aspect-ratio: 1/1;
 }
-
+/* je stylise le nom des artistes */
 .artiste_link{
     display: flex;
     justify-content: center;
@@ -1327,7 +1330,7 @@ h2:hover {
     font-size: 2vh;
     text-align: center;
 }
-
+/* je met un effet de survol mauve */
 .artiste_link:hover{
     color: #9747FF;
 }
@@ -1338,11 +1341,12 @@ h2:hover {
 /*--------------------------------------------------------------------------------
 #debut page services professionnels
 ----------------------------------------------------------------------------------*/
+/* je centre le titre */
 .titre_sp{
     text-align: center;
     margin-right: 16vw;
 }
-
+/* je place et stylise le texte qui parle des clients */
 .tservices {
     color: #000;
     text-align: justify;
@@ -1352,19 +1356,19 @@ h2:hover {
     margin: 0 0 0 10vw;
     
 }
-
+/* je veux que toutes les images et textes de clients s'affichent de gauche a droite et passe a la prochaine ligne si il n'ya plus de place */
 .tous_clients {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* je veux que le nom du client s'affiche en dessous de son image */
 .client {
     display: flex;
     flex-direction: column;
     margin: 0 3vw 0 4vw;
 }
-
+/* je stylise le nom des clients */
 .client_link{
     display: flex;
     justify-content: center;
@@ -1374,7 +1378,7 @@ h2:hover {
     font-size: 2.5vh;
     text-align: center;
 }
-
+/* je met un effet de survol mauve */
 .client_link:hover{
     color: #9747FF;
 }
